@@ -6,12 +6,12 @@
 目标是在 **30天内** 掌握 Java 基础语法、面向对象、集合框架，并完成一个控制台版的图书管理系统，为 **大二暑假实习** 做准备。
 
 ## 技术栈
-- Java JDK25
+- Java JDK21
 - IDEA开发工具
 - Git & GitHub
 
 ## 运行方式
-1. 安装JDK25，配置环境变量
+1. 安装JDK21，配置环境变量
 2. 使用IDEA打开对应java源码文件
 3. 运行main方法即可执行程序
 
@@ -24,4 +24,4 @@
 - ✅ 形成可复用的 Java 基础知识体系
 
 ## 学习进度
-- Day1：Java环境搭建、HelloWorld程序、Scanner键盘输入基础练习
+- Day1：Java环境搭建、HelloWorld程序、Scanner键盘输入基础练习、通过git运用idea同步上传代码至GitHub
