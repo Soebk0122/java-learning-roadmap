@@ -18,8 +18,7 @@
 ## 参考文献链接
 - java学习：[[hello算法](https://www.hello-algo.com/)]
 - 学习主要链接来源于：[[黑马程序员](https://www.bilibili.com/video/BV1gb42177hm?p=1&amp;vd_source=2140b8696bb75ad7bd33e1195bf24372)]
-- 笔记感谢：[[大佬分享](https://gitee.com/RasionLS/java-learn)]
-- 面试题速刷：[[javaguide](https://javaguide.cn/ )]
+
 
 ## 🎯 学习目标
 - ✅ 掌握 Java 基础语法与核心 API
@@ -30,4 +29,4 @@
 - ✅ 形成可复用的 Java 基础知识体系
 
 ## 学习进度
-- Day1：Java环境搭建、HelloWorld程序、Scanner键盘输入基础练习、通过git运用idea同步上传代码至GitHub
+- Day1：Java环境搭建、HelloWorld程序、Scanner键盘输入、变量、数据类型基础练习、通过git运用idea同步上传代码至GitHub
