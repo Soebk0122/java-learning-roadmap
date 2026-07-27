@@ -15,6 +15,12 @@
 2. 使用IDEA打开对应java源码文件
 3. 运行main方法即可执行程序
 
+## 参考文献链接
+- java学习：[[hello算法](https://www.hello-algo.com/)]
+- 学习主要链接来源于：[[黑马程序员](https://www.bilibili.com/video/BV1gb42177hm?p=1&amp;vd_source=2140b8696bb75ad7bd33e1195bf24372)]
+- 笔记感谢：[[大佬分享](https://gitee.com/RasionLS/java-learn)]
+- 面试题速刷：[[javaguide](https://javaguide.cn/ )]
+
 ## 🎯 学习目标
 - ✅ 掌握 Java 基础语法与核心 API
 - ✅ 深入理解面向对象思想（封装 / 继承 / 多态）
