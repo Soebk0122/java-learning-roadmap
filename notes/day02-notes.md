@@ -6,7 +6,7 @@
 ## 🎯 今日学习目标
 - 掌握算术、赋值、比较、逻辑运算符
 - 学会使用 Scanner 进行键盘录入
-- 开发一个简单的健康计算器应用程序 身体健康指数计算
+- 开发一个简单的健康计算器应用程序 身体健康指数计算 BMI和BMR
 
 ##  知识点
 ### 1. 运算符  
@@ -54,6 +54,7 @@
 - 'jisuan.java' 输入两个数，计算加减乘除
 - 'Demo2.java' 自增自减
 - 'Demo3.java' Scanner 键盘录入
+- 'Demo.java' 实践项目：健康计算器
 
 
 ## 面试小题
@@ -65,4 +66,17 @@
 > int i = 1;
 > System.out.println(i++); // 输出1
 > System.out.println(++i); // 输出3
-> ```
+> ```  
+
+ **Q：int和 Integer 的区别？**
+> A：
+> - `int` 是基本数据类型，`Integer` 是引用数据类型
+> - int 是基本类型，Integer 是它的包装类；int 不能为 null，Integer 可以；集合和泛型只能用 Integer；比较值用 equals，不用 ==   
+> 
+
+ **Q：== 和 equals 的区别？**
+ > A：
+ > - `==` 是判断两个对象是否相等，`equals` 是判断两个内容是否相等
+ > - 基本类型用 ==，引用类型比内容用 equals；   
+  == 比地址，equals 比值；   
+ > String、Integer 记得重写过 equals。
