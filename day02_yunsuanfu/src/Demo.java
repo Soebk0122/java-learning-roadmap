@@ -23,6 +23,7 @@ public class Demo {
         System.out.println("您的BMR值为:"+bmr);
     }
     public static double calculateBMI(double height,double weight) {
+
         return weight / (height * height);
     }
     public static double calculateBMR(double height,double weight,int age,String sex){
