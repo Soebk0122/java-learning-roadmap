@@ -31,3 +31,4 @@
 ## 学习进度
 - Day1：Java环境搭建、HelloWorld程序、Scanner键盘输入、变量、数据类型基础练习、通过git运用idea同步上传代码至GitHub
 - Day2：运算符、Scanner、方法入门、类型转换   并且制作健康计算器计算BMI和BMR
+- Day3: for 循环、while 循环、do while 循环、switch case 语句 并且练习了对应的代码 
