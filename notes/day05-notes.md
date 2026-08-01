@@ -46,8 +46,8 @@ equals()比较内容是否相等 euqalsIgnoreCase() 不考虑大小写
 ==默认比较地址值  
 
 ### 4. StringBuilder
-- StringBuilder 是可变的，可以修改。 可以看作一种容器 作用：提高字符串的操作效率
-- 构造方法
+- StringBuilder 是可变的，可以修改。 可以看作一种容器 作用：提高字符串的操作效率  StringBuffer写法一样
+- 构造方
 
 | 方法名 | 说明 |
 | --- | --- |
