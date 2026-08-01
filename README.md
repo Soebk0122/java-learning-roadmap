@@ -34,3 +34,4 @@
 - Day3: for 循环、while 循环、do while 循环、switch case 语句 并且练习了对应的代码 
 - Day4：学习break和continue的区别 学习死循环和嵌套循环 进行综合实战 计算器 猜数字 验证码
 - Day5：掌握 String 的不可变性 区分String / StringBuilder / StringBuffer
+- Day6：补充string剩余知识 并且进行代码学习
