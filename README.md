@@ -16,7 +16,7 @@
 3. 运行main方法即可执行程序
 
 ## 参考文献链接
-- java学习：[[hello算法](https://www.hello-algo.com/)]
+- 数据结构学习：[[hello算法](https://www.hello-algo.com/)]
 - 学习主要链接来源于：[[黑马程序员](https://www.bilibili.com/video/BV1gb42177hm?p=1&amp;vd_source=2140b8696bb75ad7bd33e1195bf24372)]
 
 
@@ -35,3 +35,4 @@
 - Day4：学习break和continue的区别 学习死循环和嵌套循环 进行综合实战 计算器 猜数字 验证码
 - Day5：掌握 String 的不可变性 区分String / StringBuilder / StringBuffer
 - Day6：补充string剩余知识 并且进行代码学习
+- Day7：掌握 一维数组和二维数组
