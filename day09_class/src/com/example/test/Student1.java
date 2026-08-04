@@ -12,4 +12,7 @@ public class Student1 {
         this.age=age;
         this.sex=sex;
     }
+    public void print1(String name){
+        System.out.println(this.name + "喜欢" +name);
+    }
 }
