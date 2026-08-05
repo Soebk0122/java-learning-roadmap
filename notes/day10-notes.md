@@ -35,7 +35,7 @@
 ## 今日代码
 -Demo1.java 封装
 -Demo2.java 实体类
--Test.java this的理解练习
+-Test.java static的练习
 
 ## 🎤 面试小题（Day10）
 ### Q1：什么是 JavaBean？有什么规范？
