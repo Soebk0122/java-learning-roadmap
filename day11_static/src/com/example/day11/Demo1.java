@@ -10,5 +10,8 @@ public class Demo1 {
         movies[4]=new Movie(5,"功夫女足",9.1,"张艺兴");
         movies[5]=new Movie(6,"想你了",9.2,"章若楠");
 
+        method mo=new method(movies);
+        mo.show();
+        mo.find();
     }
 }
