@@ -40,3 +40,4 @@
 - Day9：掌握 面向对象的构造方法 构造器 了解this
 - Day10：封装、JavaBean、static关键字
 - Day11：完善static剩余内容 进行综合实战 电影信息展示查询
+- Day12: 学习继承
