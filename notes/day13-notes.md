@@ -29,12 +29,10 @@
 
 
 ## 今日代码
--Test1.java 认识继承
--Test2.java 继承的权限修饰符
--Test3.java 继承的权限修饰符
--Test4.java 继承的特点
--Test5.java 方法重写的常见场景
--Test6.java 子类构造器
+-Test1.java 认识多态
+-Test2.java 多态的类型转换
+- Demo.java 加油站支付小程序
+
 
 
 
