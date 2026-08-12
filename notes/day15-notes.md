@@ -54,6 +54,7 @@
 - Test1.java 认识接口
 - Test2.java 接口的好处
 - Test3.java 接口的应用案例
+- Test4.java jd8新增的三个方法
 
 ## 🎤 面试小题（Day15）
 ### Q1：接口和抽象类的区别？
