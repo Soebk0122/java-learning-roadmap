@@ -57,6 +57,9 @@ public class Demo {
         System.out.println("请输入学生姓名：");
         String name = scanner.next();
         stu.setName(name);
+        System.out.println("请输入学生年龄：");
+        int age = scanner.nextInt();
+        stu.setAge(age);
         System.out.println("请输入学生地址：");
         String address = scanner.next();
         stu.setAddress(address);
@@ -69,15 +72,36 @@ public class Demo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入学生学号：");
         String id = scanner.next();
-        if (contains(list, id)) {
-            list.removeIf(s -> s.getId().equals(id));
+        int index = getIndex(list, id);
+        if (index>=0) {
+            list.remove(index);
             System.out.println("删除成功");
         } else {
             System.out.println("学号不存在，请重新输入");
         }
     }
     public static void updateStudent(ArrayList<Student> list) {
-        System.out.println("修改学生信息");
+//        System.out.println("修改学生信息");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("请输入要修改学生的id：");
+        String id = scanner.next();
+        int index = getIndex(list, id);
+        if (index>=0) {
+            Student stu = list.get(index);
+            System.out.println("请输入学生姓名：");
+            String name = scanner.next();
+            stu.setName(name);
+            System.out.println("请输入学生年龄：");
+            int age = scanner.nextInt();
+            stu.setAge(age);
+            System.out.println("请输入学生地址：");
+            String address = scanner.next();
+            stu.setAddress(address);
+            System.out.println("修改成功");
+        } else {
+            System.out.println("学号不存在，请重新输入");
+            return;
+        }
     }
     public static void queryStudent(ArrayList<Student> list) {
 //        System.out.println("查询学生信息");
@@ -102,5 +126,14 @@ public class Demo {
             }
         }
         return false;
+    }
+    public static int getIndex(ArrayList<Student> list, String id) {
+        for (int i = 0; i < list.size(); i++) {
+            Student stu = list.get(i);
+            if (stu.getId().equals(id)) {
+                return i;
+            }
+        }
+        return -1;
     }
 }
